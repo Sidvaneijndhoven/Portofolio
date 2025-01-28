@@ -141,7 +141,6 @@
       </div>
   </div>
 </template>
-
 <script>
 export default{}
 import { animate, inView } from "motion";
@@ -259,7 +258,7 @@ inView("#Img", (info7) => {
   });
 });
 
-//progress bar
+//progress bar 
 const progressBar = document.getElementById('progress-bar');
 
 const updateProgress = () => {
